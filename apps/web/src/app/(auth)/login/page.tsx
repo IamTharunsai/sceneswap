@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { signInWithGoogle, signInWithEmail, getIdToken, firebaseReady } from '@/lib/clients/firebase'
@@ -8,6 +8,14 @@ import { signInWithGoogle, signInWithEmail, getIdToken, firebaseReady } from '@/
 type Tab = 'creator' | 'brand'
 
 export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginContent />
+    </Suspense>
+  )
+}
+
+function LoginContent() {
   const router = useRouter()
   const params = useSearchParams()
   const redirect = params.get('redirect') || ''
