@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Link from 'next/link'
 import { createAdminClient } from '@/lib/clients/supabase-server'
 import { MetricCard } from '@/components/ui/MetricCard/MetricCard'
@@ -55,7 +57,7 @@ export default async function AdminPage() {
           <MetricCard label="Total Creators" value={stats.creatorCount.toString()} icon={Users} />
           <MetricCard label="Total Brands" value={stats.brandCount.toString()} icon={Megaphone} />
           <MetricCard label="Total Campaigns" value={stats.campaignCount.toString()} icon={Video} />
-          <MetricCard label="Platform Revenue" value="₹0" icon={DollarSign} highlight />
+          <MetricCard label="Platform Revenue" value="$0" icon={DollarSign} highlight />
         </div>
 
         {/* Pending approval queue */}
@@ -73,7 +75,7 @@ export default async function AdminPage() {
                   <div>
                     <p className="font-medium text-text-primary">{c.title}</p>
                     <p className="text-sm text-text-muted">
-                      {(c.brand as { brand_name: string })?.brand_name} · ₹{c.total_budget?.toLocaleString('en-IN')} budget · ₹{c.cpm_rate} CPM
+                      {(c.brand as { brand_name: string })?.brand_name} · ${c.total_budget?.toLocaleString('en-US')} budget · ${c.cpm_rate} CPM
                     </p>
                   </div>
                   <div className="flex gap-2">
