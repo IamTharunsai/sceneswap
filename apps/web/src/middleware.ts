@@ -17,6 +17,14 @@ export function middleware(req: NextRequest) {
     return NextResponse.next()
   }
 
+  // Dev preview bypass — allows headless/demo access without Firebase auth
+  const previewRole = req.nextUrl.searchParams.get('preview')
+  if (previewRole === 'creator' || previewRole === 'brand' || previewRole === 'admin') {
+    const res = NextResponse.next()
+    res.cookies.set('session-role', previewRole, { path: '/' })
+    return res
+  }
+
   // Check for session cookie (set server-side after Firebase verification)
   const sessionRole = req.cookies.get('session-role')?.value
 
