@@ -1,0 +1,24 @@
+{"ts":"2026-05-01T14:39:40.960Z","cmd":"goto","args":"http://localhost:3000","origin":"http://localhost:3000/","durationMs":10759,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:39:43.554Z","cmd":"screenshot","args":"C:/Users/mrtha/AppData/Local/Temp/home.png","origin":"about:blank","durationMs":2043,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:40:39.419Z","cmd":"goto","args":"http://localhost:3000/login","origin":"http://localhost:3000/login","durationMs":6590,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:40:40.260Z","cmd":"screenshot","args":"C:/Users/mrtha/AppData/Local/Temp/login.png","origin":"http://localhost:3000/login","durationMs":378,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:40:44.358Z","cmd":"goto","args":"http://localhost:3000/for-brands","origin":"http://localhost:3000/for-brands","durationMs":3648,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:40:45.776Z","cmd":"screenshot","args":"C:/Users/mrtha/AppData/Local/Temp/for-brands.png","origin":"http://localhost:3000/for-brands","durationMs":701,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:23.809Z","cmd":"goto","args":"http://localhost:3000/login","origin":"http://localhost:3000/login","durationMs":2153,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:24.388Z","cmd":"snapshot","args":"-i","origin":"http://localhost:3000/login","durationMs":149,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:28.861Z","cmd":"fill","args":"@e6 nandigam2081@gmail.com","origin":"http://localhost:3000/login","durationMs":140,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:29.307Z","cmd":"fill","args":"@e7 Tharunsai@2081","origin":"http://localhost:3000/login","durationMs":63,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:29.993Z","cmd":"click","args":"@e8","origin":"http://localhost:3000/login","durationMs":120,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:34.572Z","cmd":"screenshot","args":"C:/Users/mrtha/AppData/Local/Temp/after-login.png","origin":"about:blank","durationMs":154,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:41:39.314Z","cmd":"url","args":"","origin":"about:blank","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:42:20.088Z","cmd":"goto","args":"http://localhost:3000","origin":"http://localhost:3000/","durationMs":3991,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:42:20.683Z","cmd":"cookie","args":"session-role=creator","origin":"http://localhost:3000/","durationMs":19,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:42:30.311Z","cmd":"goto","args":"http://localhost:3000/dashboard","origin":"http://localhost:3000/","durationMs":9246,"status":"error","hasCookies":false,"mode":"launched","error":"page.goto: net::ERR_ABORTED at http://localhost:3000/dashboard\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3000/dashboard\", waiting until \"domcontentloaded\"\u001b[22m\n"}
+{"ts":"2026-05-01T14:42:34.837Z","cmd":"screenshot","args":"C:/Users/mrtha/AppData/Local/Temp/creator-dashboard.png","origin":"about:blank","durationMs":136,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:42:35.212Z","cmd":"url","args":"","origin":"about:blank","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:28.128Z","cmd":"goto","args":"http://localhost:3000","origin":"http://localhost:3000/","durationMs":1460,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:29.039Z","cmd":"cookie","args":"session-role=creator","origin":"http://localhost:3000/","durationMs":19,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:30.089Z","cmd":"reload","args":"","origin":"http://localhost:3000/","durationMs":647,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:33.536Z","cmd":"goto","args":"http://localhost:3000/dashboard","origin":"http://localhost:3000/dashboard","durationMs":787,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:33.951Z","cmd":"console","args":"","origin":"http://localhost:3000/dashboard","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-05-01T14:43:34.402Z","cmd":"text","args":"","origin":"http://localhost:3000/dashboard","durationMs":14,"status":"ok","hasCookies":false,"mode":"launched"}
