@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords: ['creator monetization', 'AI product placement', 'video advertising', 'CPM marketing', 'influencer marketing'],
   authors: [{ name: 'SceneSwap' }],
   creator: 'SceneSwap',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? 'https://sceneswap.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://sceneswap.app'),
   openGraph: {
     type: 'website',
     locale: 'en_IN',
